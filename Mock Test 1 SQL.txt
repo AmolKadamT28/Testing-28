@@ -1,0 +1,60 @@
+Q1.  Diff between Inner & Equi Join
+Q2.  Find Out the date of upcoming friday
+Q3.  Write a Query to update all employee salary by 10%
+Q4.  Diff between subquery & corelational query
+Q5.  Write a query to find out minimum salary dept wise
+Q6.  Display 5 bottom salaries
+Q7.  Diff between Delete, Truncate & drop
+Q8.  Write the query to display duplicate value
+Q9.  What is character to display first and last character is 'd'
+Q10. Find out the 3rd Highest salary by using dense rank
+Q11. Find out the highest 3 salaries by using dense rank
+Q12. Find out the 3rd highest salary by using subquery
+Q13. Diff between exist and corelational query
+Q14. Explain primary and foreign key
+Q15. Display cityu name not starting from vowels
+Q16. Diff between DDL & DML
+Q17. Diff Between Row_number , Dense rank & rank
+Q18. Explain set operators
+Q19. Display the name wise August salary
+Q20. Diff between where and having clause
+Q21. Display the dept wise the 3rd max salary
+Q22. How to calculate count of employee of each dept
+Q23. Find out sum salary of each dept order by asc
+Q24. Find August salary of each dept and August salary is less than 50,000
+Q25. Find sum of salary of each dept except civil dept
+Q26. Extract first 5 characters with all names
+Q27. Create table where marks are greater than 40
+Q28. Write the query to display the student names and they are using English and Hindi
+Q29. Explain Auto increament
+Q30. Write the query to display 3rd last character of string is 'd'
+Q31. Write syntax for join tables
+Q32. Explain Default Constraint
+Q33.      Table 1              Table 2
+            1                    2
+            2                    3
+            3                    4
+            4                    4
+            4                   NULL
+           NULL
+      Shows the output of joins
+Q34. Explain Replicate and reverse function
+Q35. Explain Datalength or length
+Q36. Diff between Distinct and group by
+Q37. Select Gender, Avg(age) from table group by gender having 7030
+Q38. How will you identify how many records are missing target system into source system
+Q39. Display male, Female alternate records
+Q40. Student(Colmn 1) City(Colmn 2) Display the student names which are living in same city
+Q41. Display city names starting with vowels by using substring
+Q42. Diff between Set operators and joins
+    
+      
+
+
+
+
+
+
+
+
+
