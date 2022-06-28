@@ -1,0 +1,10 @@
+Python topics-
+- oops
+- Modules
+- Exception handling
+- File handling
+- Functions end
+- Functions-2
+- Functions
+- Flow Control / Control Flow
+- Input and output statement
