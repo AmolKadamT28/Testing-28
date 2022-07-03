@@ -1,0 +1,272 @@
+⚜️ Testing Technology
+
+⚜️ SQA - Software Quality Assurance
+
+⚜️ Testing :- Testing is nothing but to verify the functionality of the application 
+
+⚜️ What is Software?
+Software is a series of instructions for the computer that perform a particular task, called a program.
+
+Or simply we can say Software is a collection of specialized programs.
+
+E.g. Excel,Word,Amazon, What's App, Banking Application,CRM etc
+
+⚜️ What is Software Testing?
+Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is Defect free.
+
+Software Testing is a process of executing the application with the intent of finding the defects by comparing the output behavior of the application with expected behavior (requirement).
+
+In other words it’s comparing the actual behavior of an application with expected behavior. 
+
+- There are two approaches to test the application.
+1. Manual Testing
+2. Automation Testing
+
+======================================================================================================
+Rough Page- 
+--> Oligopoly - huge competition between multiple organisations/Companies
+    ex- Amazon-Flipkart , Whatsapp-Telegram etc..
+
+--> Robust - मजबूत, अभेद्य
+
+--> Symbian Era - Time before the android/ios system introduced in mobile software. 
+    keypad type mobiles
+
+--> Y2K issue - Year 2000 issue
+
+--> STLC - Software Testing Life Cycle
+======================================================================================================
+
+
+⚜️Q. Why you join as a Test/ Quality Engineer? 
+                    or 
+⚜️Q. Why you choose your carrier as software test engineer?
+
+--->  What i understand, market follows the oligoploy mechanism 
+means organisation requires to deiliver quality product to survive in market.
+the main objective is to deliver quality product.
+Here Two approaches can be implemented:
+1. Design robust code
+2. Remove all defects
+approach 2 is practically possible
+That is the significance of Testing
+
+lets assume during symbian era nokia rules the market. 
+when the technology gets changed to symbian to andriod Nokia even can't able to servive.
+because nokia didnt accept the android for very first choice so they dont adopt updated technology.
+Adaptability is the powerfull concept to achieve the quality. so that nokia fails to making right decision for surviving in oligopoly market. to servive in oligopoly market organisation has to deliver quality product. oligopoly means huge competition between multiple organisations/Companies.
+to achieve the quality product, we have to focus on Testing.
+
+According to my opinion Testing is backbone for software industry because every software product release with quality is done after testing only thats why i choose testing as a carrier.
+
+⚜️Q. Who is responsible to deliver a quality product the developer or the test engineer?
+---> Sir, Test engineer basically responsible for robust code. 
+
+======================================================================================================
+
+⚜️ SQA - Software Quality Assuarance
+         ----------------------------
+
+⚜️ Q. What is software Quality Assurance (SQA)? 
+                    OR
+⚜️ Q. What do you mean by Quality?
+---> Basically SQA stands for "Software Quality Assurance"
+
+Definition :- Set of activities ensuring for quality of software product 
+                                      OR
+              To monitor and measure the strength of development process
+
+All these planned actions necessary to provide adquate confidence that product is of the type of quality needed and expected by the customer.
+--------------     --------
+
+SQA Contains 5 Parameters:
+--------------------------
+1 Customer Requirement (Technical)
+2 Customer Expectation (Technical)
+
+3 Cost of software (Non Technical)
+4 Risk management (Non Technical)
+5 Timely deliverables (Non Technical)
+
+1 Customer Requirement :- On what purpose customer has to produce software 
+ ---------------------    i.e. Requrement of Customer
+
+2 Customer Expectation :-  To meet Customer expectation primary & performance is needed
+-----------------------   Customer Expectation = Customer Requirement + Extra Features
+
+3 Cost of software :- Price of Software
+-------------------
+
+4 Risk management :- If something goes wrong in the software we have to modify it 
+------------------    with free of cost is called Risk Management.
+
+5 Timely deliverables :- We have to deliver Software on time.
+----------------------
+All these parameters define the 'SQA' morever in the old era 'Customer Requirement' was the prime target but now a days 'Customer Satisfaction' is priority.
+
+Customer satisfaction = Customer Requirement + Extra Features 
+
+
+'SQA means to monitor and measure the strength of development process'.
+---------------------------------------------------------------------
+
+
+=====================================================================================================
+
+Software Process = A software related issues solved by software engineers through 
+software engineering process.
+----------------------------
+
+⚜️ Q. What is SDLC (Software Development Life Cycle)?
+---> 1. SDLC is acronym of "Software Development Life Cycle"
+2. It is also called as software development process
+3. SDLC is framework which defines task performed at each step in the software development process
+4. SDLC is process followed for software project within a software organization. It contain detailed plan describing how to develope, maintain, repair or alter and enhance specific product.
+the life cycle defines a methodology for improving the quality of software & overall development process.
+
+                                        SDLC
+                                         |
+                                         |
+                                         ▼
+                    --------------------------------------------
+                    |                                          |
+                    ▼                                          ▼
+                 ⟪ LCD ⟫                                     ⟪ LCT ⟫
+
+        (Life cycle of developement)                (Life cycle of Testing)
+                    |                                          |
+                    ▼                                          ▼
+             ⟪ Upper Angle ⟫                             ⟪ Lower Angle ⟫                              
+
+
+
+i.e SDLC = LCD + LCT
+---------------------
+
+5. SDLC ratio is 3:1 means 3 developers & 1 tester
+
+⚜️Q. How many Developers and testers in your project?
+---> 
+
+                                                                     Developer              Tester
+Web based application, client server application, Enterprise             3           :         1
+
+machine critical - AI, ML,                                               1           :         1
+
+System critical projects- Robotics, satelite programming                 1           :         3
+
+
+
+
+more the criticality more importance of tester  
+
+
+
+
+
+
+⚜️ Q. Explain SDLC Generic phases?
+
+---> Generic means one then next then next
+A typical SDLC consist of following 3 phases 
+
+                                                 SDLC
+                                                  |
+                                                  |
+            ------------------------------------------------------------------------------
+            |                                     |                                      |
+            ▼                                     ▼                                      ▼
+        What to do                            How to do                              Maintenance
+             |                                    |                                       |
+             ▼                                    ▼                                       ▼ 
+    a. Customer Requirement                   a. Design                          a. Correction
+    b. Analysis                               b. Coding                          b. Adaptive
+                                              c. Testing                         c. Re-Engineering
+                                                                                 d. Enhancement
+
+1. Customer Requirement & Analysis :-
+------------------------------------
+
+a. Customer Requirement (Requirement Gathering) :-
+------------------------------------------------
+- Customer Requirement is the most imp stage in SDLC. Business Analyst collects the requirements from the Customer/Client as per the clients business needs and documents the requirements in the Business Requirement Specification and provides the same to Development Team.
+
+- Note: Document name may vary from one Organization to another, Some examples are Customer Requirement Specification (CRS), Business Requirement Document (BRD) etc
+
+- Suppose Our Planned Software is not intended for a single customer and the software product for multiple customers then Business Analyst or Business Team collects Requirements from the Market and also evaluate Other similar products in the Market 
+
+- Key Role in this phase is Business Analyst and Outcome of the phase is "Business Requirement Specification"
+
+
+b. Analysis :- 
+-------------
+- Once the Requirement Gathering is done the next step is to define and document the product requirements and get them approved by the customer. This is done through SRS (Software Requirement Specification) document. SRS consists of all the product requirements to be designed and developed during the project life cycle.
+
+- Key people involved in this phase are Project Manager, Business Analyst and Senior members of the Team. The outcome of this phase is Software Requirement Specification.
+
+
+2. Design, Coding, Testing :-
+----------------------------
+
+a. Design :-
+-----------
+- In Design phase Senior Developers and Architects, they give the architecture of the software product to be developed. It has two steps one is HLD (High Level Design) or Global Design and another is LLD (Low Level Design) or Detailed Design, 
+
+- High Level Design (HLD) is the overall system design, covers the system architecture and database design. It describes the relation between various modules and functions of the system. 
+
+- Low Level Design (LLD) is the detailed system design, covers how each and every feature in the product should work and how every component should work. 
+
+- The outcome of this phase is High Level Document and Low Level Document which works as an input to the next phase Coding. 
+
+
+b. Coding :- 
+-----------
+-  Developers (seniors, juniors and fresher) involved in this phase, this is the phase where we start building the actual software and start writing the code for the product. 
+
+- If design is developed in detailed and organize manner, code generation can be accomplished without much hussle.
+
+- The outcome of this phase is Source Code Document and the developed product. 
+
+
+c. Testing :-
+-----------
+- Once the software is complete then it is deployed in the testing environment. The testing team starts testing (either test the software manually or using automated test tools depends on process defined in STLC) -----#(STLC- Software Testing Life Cycle)
+
+- Testing is done to verify that the entire application works according to the customer requirement. 
+
+- During this phase, Testing team may find defects which they communicate to developers, the development team fixes the defect and send back to Testing for a re-test. This process continues until the software is Stable, and working according to the business needs of that system. 
+
+- In this stage product is tested where product defects are reported, tracked , fixed and retested until the product reaches the quality standard defined by SRS (Software Requirement Specification).
+
+
+3. Maintenance :-
+--------------- 
+- After successful testing, the product is delivered (deployed to the customer for their use), Deployment is done by the Deployment/Implementation engineers and Once when the customers start using the developed system then the actual problems will come up and needs to be solved from time to time.
+- Fixing the issues found by the customer comes in the maintenance phase. 100% testing is not possible – because, the way testers test the product is different from the way customers use the product. Maintenance should be done as per SLA (Service Level Agreement) 
+
+a. Correction :-
+---------------
+- When some fault occure in product after deployment then modify it i.e. correction
+
+b. Adaptive :-
+------------
+- Adaptive is concept of acceptance.
+- Adopt from old version and add some new features called as Adaptive Eg. Mobile phones
+
+c. Re-engineering :-
+------------------
+- Reprocess it means Re-engineering
+
+d. Enhancement :-
+----------------
+- Future Requirement
+
+===================================================================================================================
+
+Q.  BRS----> BA
+      |
+    SRS----> BA
+      |---------------> Testing
+    Design
+      |
+    Coding
