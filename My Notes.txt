@@ -261,12 +261,381 @@ d. Enhancement :-
 ----------------
 - Future Requirement
 
+
+
+
+      Customer Requirement Gathering         --------> BRS (Business Requirement Specification)
+                    |
+                    |
+                 Analysys                    --------> SRS (Software Requirement Specification) OR
+                    |                                  CRS (Customer Requirement Specification)
+                    |                        
+       ---------- Design ---------              
+       |            |            |           --------> Design Document   
+High Level Design   |      Low Level Design
+      (HLD)         |           (LLD)
+                    |
+                 Coding                      ---------> Coding Structure
+                    |
+                    |
+                 Testing                     ---------> Test Documents
+                    |
+                    |
+               Maintenance                   ---------> Support
+                                                        
+
+
+
 ===================================================================================================================
 
-Q.  BRS----> BA
-      |
-    SRS----> BA
-      |---------------> Testing
-    Design
-      |
-    Coding
+Q.  Testing Starts before or after coding?
+--> 
+Basically testing process and development process starts simultaniously after the Analisys phase.
+
+      Customer Requirement Gathering         --------> BRS 
+                    |
+                    |
+                 Analysys                    --------> SRS                             
+                    |
+                    |                                                                         ---------
+                    |-----------------------(SRS)---------------------(SRS)----------------->  Testing
+                    |                                                                         ---------
+                  (SRS)                                                                           |
+                    |                                                                 ---------------------------- 
+       ---------- Design ---------                                                    |                          |
+       |                         |                                                  Primary                  Secondary 
+       |            |            |           --------> Design Document                |                          |
+High Level Design   |      Low Level Design                                      Test case Design                |
+      (HLD)         |           (LLD)                                                 (TCD)                      |
+                    |                                                                                            |
+                    |                                        ----------------------------------------->  Test Case Execution
+                    |                                       /                ▲                                 (TCE)
+                    |                                      /                 |
+                    |                                     /                  |
+                    |                                    /<------ (code/Applocation/programme)
+                    |                                   /                            
+                 Coding     ---------> Coding Structure/
+                   
+
+
+
+- Requirement gathering is most important and fundamental stage in SDLC. Collects the input from customer in this stage.
+In requrement gathering process the document is created by senior team member called as "BRS" (Business Requirement Specification)
+
+- Once the requirement gathering is done the next step is clearly define the product requirement & get them approve from customer. This is done through SRS i.e. Software Requirement Specification.
+SRS consist of all the product requirement to be designed & developed during the project life cycle.
+
+- One copy of SRS goes to development team & one to testing team on same day. so they both start their work simultaniously.
+
+- When copy of SRS comes to testing team then tester performs Test case Design (TCD) & development team work on it to produce software application.
+
+- Developed Application is then given to the tester for testing.
+
+- Tester test that application according to test case design i.e 'Test Case Execution' 
+In this way Testing and Development both processes starts simulteniously
+
+
+=============================================================================================================================
+
+* Graphical Representation of SDLC :-
+-----------------------------------
+
+
+                       
+                    ANALYSY                         DESIGN                    CODING                  MAINTENANCE
+                    SRS/CRS                          HLD
+                    -------------------------------------------------------------- (DEVELOPER)
+                   /|                             |                              |\                       /|
+                  / | (BA)                        | (PROJECT                     | \                     / |
+                 /  |                             | MANAGER)                     |  \                   /  |
+                /   |                             |                              |   \    System &     /   |
+               /    |                             |                              |    \  Functional   /    |
+              /     |                             |                              |     \    Test     /     |
+             /      |                             |                              |      \           /      |
+            /       |                             |                              |       \         /       |
+           /        |                             |                              |        \       /        |
+          /         |                             |                              |         \     /         |
+         /          |                             |                              |          \   /          |
+        /           |                             |                              |           \ /           |
+  BRS  /            |                             |                              |           ⚫            |
+       \            |                             |                              |           / \           |
+        \           |                             |                              |          / ▲ \          |
+         \          |                             |                              |         /  |  \         |
+          \         |                             |                              |        /   |   \        |
+           \        |                             |                              |       /    |    \       |
+            \       |                             |                              |      /   BLACK   \      |
+             \      |                             |                              |     /     BOX     \     |
+              \     |                             |                              |    /    TESTING    \    |
+               \    |                             |                              |   /                 \   |
+                \   |                             |                              |  /                   \  |
+                 \  |                             |                              | /                     \ |
+                  \ ▼                        LLD  ▼                              ▼/                       \|
+                   ---------------------------------------------------------------
+                   Review                       REVIEW                        REVIEW         DEFFECT REMOVAL EFFICIENCY (DRE)
+                                               PROTOTYPE                 WHITE BOX TESTING                 OR    
+                                                                                                      CORRECTION     
+                                                                                                           OR 
+                                                                                                  CHANGE REQUEST (CR)
+                                                                                                           OR
+                                                                                                 REQUEST FOR CHANGE (RFC)
+
+                   |<------------------------------------------------------------>|<----------------------->|
+                                              VERIFICATION                                VALIDATION
+                                            (STATIC TESTING)                           (DYNAMIC TESTING)
+
+
+- Fish model explains the mapping between different stages of development and testing
+- In fish model we have to do testing from the project initiation node to maintenance node because of this the model is expensive and time consuming Apart from this, using fish model we can deliver a good quality software to the customer. The Skeleton of this model is look like Fish so named as "Fish Model"
+
+Phase 1 :-
+----------
+Information gathering takes place & here the BRS(Business Requirement Specification) is prepared.
+
+Phase 2 :-
+----------
+In this phase analisys takes place. In this place Business Analyst people prepare SRS(Software Requirement Specification) document.
+SRS is combination of Functional Requirement Specification And System Requirement Specification. During this phase testing people go for review.
+
+Phase 3 :-
+---------
+This is Design phase, Here HLD i.e High level Design & LLD i.e Low Level Design documents are prepared by developer team. 
+Here the testing people are going for prototype review.
+
+
+Reviews :-
+--------
+A document level testing technique during this review, the responsible
+people are estimating the completeness & correctness of corresponding
+Document
+There are different kind reviews for validate above BRS SRS and Design documents.
+Walkthrough
+In this review system, responsible people Study a document from 1st line to last line
+2. Inspection
+Search for a specific issue in a document (Without Intimation).
+3. Peer Review 
+Compare a document with other similar document
+4. Informal Review
+It doesn't follow any process to find out any defects in document. In this review, they just review and give informal comments.
+5. Technical Review
+Fun specifications will be reviewed and checked whether it is suitable to product.
+
+
+Reviews in BRS/SRS :-
+-------------------
+Are they Right Requirements?
+Are they Complete Requirements?
+Are they Achievable Requirements?
+Are they Reasonable Requirements?
+Are they Testable Requirements?
+
+Reviews in Design:-
+------------------
+After completion of Analysis & their reviews the designer category
+people develops HLD & LLD’s are conducts reviews on the documents for completeness & correctness.
+The designers prepare these questions on the HLD & LLD’s.
+Are they understandable designs?
+Are they meeting the right requirements?
+Are they complete designs?
+Are they followable designs?
+Are they handling errors?
+
+Phase 4 :-
+-------- 
+After completion of design & their reviews, the programmers start coding.
+Coding is set of software program written by development team to construct a physical software.
+What is Program
+Program: - A set of executable statements is called a program. Software consists of multiple programs. A program consists multiple statements.
+In this phase, the programmers prepare programs & then test each program using
+White Box Testing Techniques.
+White Box Testing
+It is coding level testing technique used to check completeness and correctness of program.
+A program level testing technique. In this technique, the responsible people are verifying the internal structure of the corresponding program. i.e developers
+White Box Testing techniques are also known as Unit Tesing/Open Box Testing / Glass Box Testing / Clear Box Testing
+
+Phase 5 :-
+---------
+This is Testing phase. Testing is done to verify that the entire application works according to the customer requirement. 
+
+Tester review the whole application called as Black Box Testing
+
+black box testing defines the presence of defects as well as absence of defects in code.
+This is build level testing technique.
+During this testing, test engineer validates the internal functions with respect to external interface.
+Also known as ‘System and Functional testing’.
+Tester doesn’t need to know about internal code written  by developer.
+
+Phase 6 :-
+---------
+This is maintenace Phase. 
+After successful testing, the product is delivered (deployed to the customer for their use), Deployment is done by the Deployment/Implementation engineers and Once when the customers start using the developed system then the actual problems will come up and needs to be solved from time to time.
+Fixing the issues found by the customer comes in the maintenance phase. 100% testing is not possible – because, the way testers test the product is different from the way customers use the product. Maintenance should be done as per SLA (Service Level Agreement) 
+
+
+==============================================================================================================================
+
+* White Box Testing
+---------------------
+
+It is coding level testing technique used to check completeness and correctness of program.
+A program level testing technique. In this technique, the responsible people are verifying the internal structure of the corresponding program. i.e developers
+White Box Testing techniques are also known as Unit Tesing/Open Box Testing / Glass Box Testing / Clear Box Testing
+
+There are 4 White Box Testing Techniques:
+1.Basis Path Testing
+2.Control Structure testing
+3.Program technique Testing
+4.Mutation Testing
+These Techniques are applicable only for Programs.
+
+1.Basis Path Testing:
+During this test the programmers concentrate on the execution of
+programs without any runtime errors. To conduct this test, the corresponding
+programmer follows the below approach.
+Write a program with respect to LLD (Low Level Design)
+Draw a flow graph for that program.
+Run that program more than one time to cover all areas.
+Eg If Else program….This program should be run 2 times executable.
+° One time to check whether if condition is satisfied or not
+° Next time to check whether the else condition is satisfied or not, without any runtime errors
+
+2. Control Structure Testing:
+During this test, the corresponding programmer concentrates on
+correctness of program execution in this test, they verify every statements of
+program execution. In this test, they verify every statements input state & Output
+state.
+Eg: Debugging
+
+3. Program Technique Testing:
+During this test, the programmers concentrate on the execution
+speed of a program. If the execution speed is not reasonable, then programmers
+perform changes in the structure of the program without disturbing functionality
+of the program. 
+
+4. Mutation Testing:
+During this test, the corresponding programmers estimate completeness & correctness of a program testing. Total req, successful and failed req
+==============================================================================================================================
+
+* Black Box Testing
+--------------------
+- This is Testing phase. Testing is done to verify that the entire application works according to the customer requirement. 
+Tester review the whole application called as Black Box Testing
+- This is build level testing technique.
+- During this testing, test engineer validates the internal funtion with respect to external interface.
+Also known as ‘System and Functional testing’.
+- *imp* During black box testing we validate system and functional test with Three dimentional approach with respect to customer requirement to satisfy Business logic.
+Tester doesn’t need to know about internal code written  by developer.
+
+Functional Testing and Non functional testing
+Functional Testing
+------------------
+1. Behavioral  Coverage
+2. Input domain Coverage(BVA And ECP)
+3. Error handling Coverage
+4. System level Coverage
+5. Calculation Based Coverage
+6. Backend coverage / Database Testing
+
+Non Functional
+----------------
+1. Compatibility testing
+2. Parallel Testing
+3. Installation testing
+4. Globalization testing
+5. Security Testing
+6. Performance Testing
+7. Sanitation Testing
+8. Recovery Testing
+
+==============================================================================================================================
+Q. What is Static testing and Dynamic Testing?
+Static testing :-
+---------------
+- Static testing is verification testing technique where we test the requirement doc and design doc prior to software  being developed i.e. testing without giving any i/p.
+- Testing is done before code developed.
+- This done during analysis and  design phase using reviews techniques.
+It is about prevention.
+- Main objective of Static testing is to improve the quality of software product by finding errors in early stages of development cycle.
+- Also known as ‘Non execution testing’ or ‘Verification Testing’.
+
+Dynamic Testing :-
+-----------------
+- Dynamic testing is validation testing where we test the developed software i.e. testing with i/p and checking the expected results.
+- Testing is done after code developed.
+- This testing done by white box testing or black box testing.
+It is about Cure.
+- Main Objective Dynamic testing Software product work as per business requirements.
+- Also known as ‘Execution Testing’ or ‘Validation Testing’.
+
+                                                            -----------
+                                                            | Testing |
+                                                            -----------
+                                                                 |
+                                  ---------------------------------------------------------------
+                                  |                                                             |
+                                  ▼                                                             ▼
+                           Dynamic Testing                                                Static Testing
+                                  |                                                             |
+                                  |                                                             |
+               ------------------------------------------                                  Reviews etc
+               |                                        |
+          Functional                               Non Functional
+
+
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================================================================================================
+Verification and Validation :-
+-----------------------------
+- Without Verification validation is not possible and without validation quaity software is not achievable.
+
+These both testing techniques are to check that software product is meeting the customer requirements.
+- Static Testing ---Verification
+- Dynamic Testing– Validation
+- Verification + Validation---SDLC
+- Verification– Quality Assurance
+- Validation- Quality Control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+Q. What is difference between Verification & Validation?
+--> 
